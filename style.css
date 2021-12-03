@@ -1,0 +1,80 @@
+/* Write some CSS below */
+body {
+font-family: Overpass;
+font-size: 18px;
+background-color: rgb(230,230,230);
+color: rgb(30,30,30);
+}
+
+h1 {
+	font-family: Cabin;
+	font-size: 90px;
+}
+
+h2 {
+	font-family: Cabin;
+	font-size: 45px;
+}
+
+h3 {
+	font-family: Cabin;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.banner {
+	text-align: center;
+	background-image: url(images/Menton_bg.jpg);
+	background-size: cover;
+	background-position: center;
+	color:  white;
+	padding:  200px 0px;
+}
+
+.btn-yellow {
+	background-color: #f9b435;
+	padding: 20px 85 px;
+	border-radius: 4px;
+	margin:  20px;
+	color: white;
+	font-size: 35px;
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+	display: grid;
+    grid-gap: 30px;
+}
+
+.card-white {
+	background-color: white;
+	width: 220px;
+	text-align: center;
+	padding: 24px;
+	margin: 8px;
+	border-radius: 4px;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-white img{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.footer {
+	background-color: #fcb40b;
+	margin-bottom: 0px;
+	padding: 24px;
+	text-align: center;
+}
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: auto;
+}
